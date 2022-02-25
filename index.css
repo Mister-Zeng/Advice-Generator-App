@@ -54,7 +54,7 @@ body {
 
 @media screen and (max-width: 450px) {
     .divider {
-        content: url(/images/pattern-divider-mobile.svg);
+        content: url(https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/7233ab39c2332ad94a2605bcbfae19a36622a2d7/Images/pattern-divider-mobile.svg);
         width: 250px;
     }
     .container {
@@ -78,7 +78,7 @@ body {
 
 @media screen and (min-width: 451px){
     .divider {
-        content: url(/images/pattern-divider-desktop.svg);
+        content: url(https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/7233ab39c2332ad94a2605bcbfae19a36622a2d7/Images/pattern-divider-desktop.svg);
     }
 
 }
