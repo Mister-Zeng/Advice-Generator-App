@@ -6,16 +6,11 @@ const fetchQuote = async () => {
     try {
         const res = await fetch('https://api.adviceslip.com/advice')
         const data = await res.json();
-        return data;
+        adviceText.innerText = data.slip.advice;
+        adviceNums.innerText = `A D V I C E #${data.slip.id}`;
     } catch (e) {
         adviceText.innerText = 'Error';
     }
 };
 
-const changeText = () => {
-    fetchQuote()
-    adviceText.innerText = data.slip.advice;
-    adviceNums.innerText = `A D V I C E #${data.slip.id}`;
-}
-
-dice.addEventListener('click', () => changeText());
+dice.addEventListener('click', () => fetchQuote());
