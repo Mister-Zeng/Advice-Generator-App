@@ -121,7 +121,7 @@ body {
 
 @media screen and (max-width: 450px) {
     .divider {
-        content: url(https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/a678e5cd4dd27cc8992f19e4ed3bc21d245bd203/Images/pattern-divider-mobile.svg);
+        content: url('https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/a678e5cd4dd27cc8992f19e4ed3bc21d245bd203/Images/pattern-divider-mobile.svg');
         width: 250px;
     }
     .container {
@@ -145,7 +145,7 @@ body {
 
 @media screen and (min-width: 451px){
     .divider {
-        content: url(https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/a678e5cd4dd27cc8992f19e4ed3bc21d245bd203/Images/pattern-divider-desktop.svg);
+        content: url('https://raw.githubusercontent.com/Mister-Zeng/Advice-Generator-App-Inserting-API/a678e5cd4dd27cc8992f19e4ed3bc21d245bd203/Images/pattern-divider-desktop.svg');
     }
 
 }
