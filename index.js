@@ -2,7 +2,6 @@ let adviceNums = document.querySelector('.adviceNums');
 const dice = document.querySelector('.generator');
 let adviceText = document.querySelector('.adviceText');
 
-'use strict';
 const fetchQuote = async () => {
     try {
         const res = await fetch('https://api.adviceslip.com/advice')
@@ -14,4 +13,5 @@ const fetchQuote = async () => {
     }
 };
 
+'use strict';
 dice.addEventListener('click', () => fetchQuote());
