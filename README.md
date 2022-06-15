@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Mister-Zeng/Advice-Generator-App-Inserting-API]
-- Live Site URL: [https://mister-zeng.github.io/Advice-Generator-App-Inserting-API/]
+- Solution URL: [https://github.com/Mister-Zeng/Advice-Generator-App/]
+- Live Site URL: [https://mister-zeng.github.io/Advice-Generator-App/]
 
 ## My process
 
