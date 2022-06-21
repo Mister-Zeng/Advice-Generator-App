@@ -121,7 +121,7 @@ body {
 
 @media screen and (max-width: 450px) {
   .divider {
-    content: url("/Images/pattern-divider-mobile.svg");
+    content: url("./Images/pattern-divider-mobile.svg");
     width: 250px;
   }
 
@@ -150,7 +150,7 @@ body {
 
 @media screen and (min-width: 451px) {
   .divider {
-    content: url("/Images/pattern-divider-desktop.svg");
+    content: url("./Images/pattern-divider-desktop.svg");
   }
 
 }
